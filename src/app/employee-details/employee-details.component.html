@@ -1,0 +1,36 @@
+<h1 class="text-center mt-5 text-secondary">Employee Information Database</h1>
+
+<div class="container mt-3">
+  <div class="card mb-3">
+    <div class="card-header text-info-emphasis text-primary-emphasis">
+      <h5 class="mb-0">Employee : {{ employee.name }}</h5>
+    </div>
+    
+    <div class="card-body row">
+      <div class="col-md-2 border-end">
+        <h5 class="text-center text-decoration-underline text-primary">Employee Details</h5>
+        
+        <div class="text-center mt-4"><i class="fa-solid fa-user"></i> <strong>{{ employee.name }}</strong></div>
+        <div class="my-3 text-center"><i class="fa-solid fa-phone"></i> {{ employee.number }}</div>
+        <div class="text-center"><i class="fa-regular fa-envelope"></i> {{ employee.email }}</div>
+      </div>
+      <div class="col-md-2 border-end">
+        <h5 class="text-center text-decoration-underline text-primary">Department</h5>
+        <div class="text-center mt-4"><i class="fa-regular fa-building"></i> {{ employee.department }}</div>
+      </div>
+      <div class="col-md-2 border-end">
+        <h5 class="text-center text-decoration-underline text-primary">Date Of Joined</h5>
+        <div class="my-3 text-center"><i class="fa-solid fa-calendar-days"></i> {{ employee.created_date | date }}</div>
+      </div>
+      <div class="col-md-2 border-end">
+        <h5 class="text-center text-decoration-underline text-primary">Position</h5>
+        <div class="text-center mt-4"><i class="fa-regular fa-clipboard"></i> {{ employee.position }}</div>
+      </div>
+      <div class="col-md-2 border-end">
+        <h5 class="text-center text-decoration-underline text-primary">Salary</h5>
+        <div class="text-center mt-4"><i class="fa-regular fa-clipboard"></i> {{ employee.salary }}</div>
+      </div>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,124 @@
+.container {
+    max-width: 90%;
+    margin-top: 30px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    /* background-color: #2f2f2f; Dark neutral background */
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .text-decoration-underline {
+    text-decoration: underline;
+  }
+  
+  .text-primary {
+    color: #2f2f2f !important; /* Dark neutral text color */
+  }
+  
+  .btn-outline-primary {
+    color: #2f2f2f;
+    border-color: #2f2f2f;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+  
+  .btn-outline-warning {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-outline-warning:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .fa-solid, .fa-regular {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #2f2f2f; /* Dark neutral color for icons */
+  }
+  
+  h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .col-md-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .col-md-2 h5 {
+    color: #2f2f2f; /* Dark neutral color for headings */
+  }
+  
+  .col-md-2 div {
+    margin: 10px 0;
+  }
+  
+  .card-header h5 {
+    margin: 0;
+  }
+  
+  .card-body div i {
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .card-body div:hover i {
+    color: #4a4a4a; /* Slightly lighter shade for hover effect */
+  }
+  
+  .text-center {
+    font-weight: bold;
+  }
+  
+  .btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
